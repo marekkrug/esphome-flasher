@@ -61,6 +61,11 @@ pip3 install -U \
     wxPython
 ```
 
+If you can't flash your ESP on Linux, you may need to give yourself write permissions, e.g. with:
+```
+sudo chmod a+rwx /dev/ttyUSB0
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT) © Marcel Stör, Otto Winter
